@@ -1,0 +1,25 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[CULTRERA, 2008]{Spatial}
+\bgroup\fonteauteurs\bgroup CULTRERA\egroup\egroup{}, P. (2008).
+\newblock Les piles à combustibles.
+\newblock \url{
+  http://www.de-la-terre-a-la-lune.com/apollo.php?page=technos\_cm\_piles\_a\_combustible}.
+
+\bibitem[ROZAIN, 2013]{These}
+\bgroup\fonteauteurs\bgroup ROZAIN\egroup\egroup{}, C. (2013).
+\newblock {\em Développement de nouveaux matériaux d'électrodes pour la
+  production d'hydrogène par électrolyse de l'eau}.
+\newblock Th\`ese de doctorat, Université Paris Sud, Paris XI.
+
+\bibitem[Toyota, 2015]{Toyota}
+\bgroup\fonteauteurs\bgroup Toyota\egroup\egroup{} (2015).
+\newblock La toyota miraï.
+\newblock \url{ https://www.toyota.fr/new-cars/new-mirai/landing.json}.
+
+\end{thebibliography}
